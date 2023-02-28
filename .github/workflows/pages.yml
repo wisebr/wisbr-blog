@@ -23,8 +23,6 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - name: Update submodules
-        run: git submodule update
       - name: Install Dependencies
         run: npm install
       - name: Build
