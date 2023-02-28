@@ -1,4 +1,4 @@
-slogan: "wubba lubba dub dub."
+slogan: "The whole movement of life is study"
 
 show_heart: true
 
@@ -16,14 +16,14 @@ menu:
   - title: Tags
     url: tags
     intro: "All the tags."
-    # icon: "fa fa-tags"
+    icon: "fa fa-tags"
   - title: About
     url: about
     intro: "About me."
     # icon: "fa fa-user"
-  - title: RSS
-    url: atom.xml
-    intro: "Subscribe me."
+  # - title: RSS
+  #   url: atom.xml
+  #   intro: "Subscribe me."
     # icon: "fa fa-user"
 
 links:
@@ -47,7 +47,7 @@ widgets:
 rss: atom.xml
 fancybox: true
 favicon: favicon.png
-#duoshuo_shortname: 
+#duoshuo_shortname:
 
 
 # Analytics
@@ -60,7 +60,7 @@ google_analytics:
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 
 #valine
-valine: 
+valine:
   enable: false
   appId: 'xxx'
   appKey: 'xxx'
@@ -69,7 +69,7 @@ valine:
   avatar: 'monsterid'
   requiredFields: ['nick','mail']
   pageView: false
-  
+
 #waline
 waline:
   enable: false
